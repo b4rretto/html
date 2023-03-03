@@ -1,0 +1,92 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+   header{ 
+    background-color: rgb(41, 193, 33);
+    color: aliceblue;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    border-bottom: rgb(59, 105, 13) 3px solid;
+    justify-content: space-between;
+    font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    .container{
+    background-color: #eee; 
+    min-height: 60vh; 
+    padding: 50px 
+    }
+
+    .product-container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .card{
+    width:31%;
+    display: inline-block;
+    }
+
+    .product-image{
+        height:300px;
+        width:100%;
+        background-position: center;
+        background-size: cover;
+
+    }
+    #img-1{
+        background-image: url(../imagens/tenis1.jpg);
+    }
+    #img-2{
+        background-image: url(../imagens/tenis2.jpg);
+    }
+    #img-3{
+        background-image: url(../imagens/tenis3.jpg);
+    }
+    #img-4{
+        background-image: url(../imagens/tenis4.jpg);
+    }
+    #img-5{
+        background-image: url(../imagens/tenis5.jpg);
+    }
+    #img-6{
+        background-image: url(../imagens/tenis6.jpg);
+    }
+
+    h3{
+
+    margin-bottom: 10px;
+    color:rgb(26, 146, 26);
+    font-size: 24px;
+    }
+
+    .card p {
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        display: block;
+        width:100%;/*Ocupar 100% do espaço do card*/
+        text-align: center;
+        text-transform:uppercase;
+        text-decoration: none;/*Remove o sublinhado do texto*/
+        background-color: rgb(26, 146, 26);
+        color: aliceblue;/*Muda a cor da fonte*/
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .btn:hover{ /*altera a cor de fundo quando o cursor do mouse estiver sobre ele*/
+        background-color: darkgreen;
+    }
+    footer{
+    /*altera as configurações do rodapé da página*/
+    background-color: rgb(26, 155, 26);
+    text-align: center;
+    padding: 80px;
+    color:aliceblue;
+    
+    }
