@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  header{ 
+   background-color: rgb(45, 179, 216);
+   color: aliceblue;
+   padding: 30px;
+   align-items: center;
+   text-align: center;
+   border-bottom: rgb(15, 165, 189) 5px solid;
+   justify-content: space-between;
+   font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+   .container{
+   background-color: #eee; 
+   min-height: 60vh; 
+   padding: 50px 
+   }
+
+   .product-container{
+       max-width: 1200px;
+       margin: 0 auto;
+   }
+   .card{
+   width:31%;
+   display: inline-block;
+   padding: 5px;
+   }
+
+   .product-image{
+       height: 200px;
+       width:100%;
+       background-position: center;
+       background-size: cover;
+
+   }
+   #img-1{
+       background-image: url(../exercicio6/imagens/gtr-1.webp);
+   }
+   #img-2{
+       background-image: url(../exercicio6/imagens/silvia-2.jpg);
+   }
+   #img-3{
+       background-image: url(../exercicio6/imagens/z-3.jfif);
+   }
+   #img-4{
+       background-image: url(../exercicio6/imagens/skyline-4.webp);
+   }
+   #img-5{
+       background-image: url(../exercicio6/imagens/kicks-5.jfif);
+   }
+   #img-6{
+       background-image: url(../exercicio6/imagens/versa-6.jpg);
+   }
+
+   h3{
+
+   margin-bottom: 20px;
+   color:rgb(50, 47, 43);
+   font-size: 20px;
+   }
+
+   .card p {
+       margin-bottom: 10px;
+   }
+
+   .btn{
+       display: block;
+       width:100%;/*Ocupar 100% do espaço do card*/
+       text-align: center;
+       text-transform:uppercase;
+       text-decoration: none;/*Remove o sublinhado do texto*/
+       background-color: rgb(18, 164, 174);
+       color: aliceblue;/*Muda a cor da fonte*/
+       padding: 15px;
+       margin-bottom: 40px;
+       border-radius: 40px;
+   }
+
+   .btn:hover{ /*altera a cor de fundo quando o cursor do mouse estiver sobre ele*/
+       background-color: rgb(0, 121, 132);
+   }
+   footer{
+   /*altera as configurações do rodapé da página*/
+   background-color: rgb(12, 170, 206);
+   text-align: center;
+   padding: 80px;
+   color:aliceblue;
+   
+   }
