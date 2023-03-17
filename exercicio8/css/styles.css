@@ -11,10 +11,89 @@ body{
     padding: 5px;
     text-align: center;
 }
-.cabecalho{
+.cabecalho {
     padding: 60px;
     text-align: center;
     background-image: url(../imagens/desktop.png);
     background-size: cover;
     color: aliceblue;
+}
+.barra_nav {
+    display: flex;
+    background-color: black;
+}
+
+.barra_nav a {
+    color: white;
+    padding: 14px 10px;
+    text-decoration: none;
+    text-align: center;  
+}
+
+/*trocar cor de fundo quando o cursor estiver no link*/
+
+.barra_nav a:hover {
+    background-color: rgb(227, 227, 227);
+    color: dimgray;
+}
+
+/*configurar a div coluna*/
+.coluna{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+/*Criar 2 colunas desiguais (30 e 70%)*/
+
+.lateral {
+    flex: 30%;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.principal {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.imagem_falsa {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+}
+
+.imagem_falsa2 {
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.imagem_falsa3 {
+    background-color: rgb(26, 127, 138);
+    width: 100%;
+    padding: 20px;
+    height: 200px
+}
+
+.rodape{
+    max-height: fit-content;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 234, 0);
+}
+
+@media screen and (max-width: 500px) {
+    .coluna, .barra_nav {
+        flex-direction: column;
+    }
+    .cabecalho {
+        background-image: url(../imagens/mobile.png);
+        background-size: cover;
+        color: white;
+    }
+    
 }
