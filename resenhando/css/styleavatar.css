@@ -84,7 +84,7 @@ color: aliceblue;
     height: 240px;
     justify-content: center;
     color: rgb(255, 255, 255);  
-    background-image: url(..//imagens/baleia.jpeg);
+    background-image: url(..//imagens/avatar.jpg);
     background-size:contain;
     margin-left: 520px;
    
@@ -112,8 +112,9 @@ color: aliceblue;
     width: 300px;
     padding: 100px;
     height: 100px;
+   
     background-size: cover;
-    background-image: url(../imagens/baleia2.jfif);
+    background-image: url(../imagens/avatar2.jfif);
     justify-content: center;
     margin-left: 500px;
 
