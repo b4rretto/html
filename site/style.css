@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    
+    background-image: url(imagem.jpg);
+    background-size: cover;
+}
+
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 600px;
+    width: 600px;
+
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.2);
+   
+}
+
+.card > .question p {
+    font-size: 32px;
+    font-family: Briem Hand;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-yes, .btn-no {
+    height: 48px;
+    width: 100px;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-yes {
+    background-color: #125e12;
+    color:#fff;
+}
+
+.btn-no {
+    background-color: #9b1a1a;
+    color: #fff;
+}
+
+.answer {
+    display: none;
+}
+
+.answer > p {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #2E8B57;
+    text-shadow: 1px 1px #ffffff;
+    
+}
+.ul, h2, h1 {
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+   
+    width: 500px;
+}
